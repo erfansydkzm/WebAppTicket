@@ -6,8 +6,18 @@ using System.Threading.Tasks;
 
 namespace WebAppTicket.Data
 {
-    public class AppDbContext:DbContext
+    public class AppDbContext : DbContext
     {
+
+        public AppDbContext(DbContextOptions options):base(options)
+        {}
+        DbSet<UserInfo> User { get; set; }
+        DbSet<TicketInfo> Ticket { get; set; }
+
+        
+
+
+
 
     }
 }
