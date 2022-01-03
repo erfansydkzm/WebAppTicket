@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace WebAppTicket.Data
 {
-    public class TicketInfo
+    public class WebAppTicketContext
     {
 
     }
